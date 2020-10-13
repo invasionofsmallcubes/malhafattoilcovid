@@ -1,12 +1,11 @@
 import { useCallback, useRef, useState } from 'react'
 
-import Link from 'next/link'
 import styles from './search.module.css'
 
-export default function Search() {
+export default function Search(props) {
 
   const searchRef = useRef(null)
-  const [player, setPlayer] = useState({})
+  //const [player, setPlayer] = useState({})
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(false)
   const [results, setResults] = useState([])
@@ -15,7 +14,6 @@ export default function Search() {
 
   const onChange = useCallback((event) => {
     const query = event.target.value;
-    console.log("onChange")
     setQuery(query)
     if (query.length) {
       fetch(searchEndpoint(query))
@@ -25,18 +23,16 @@ export default function Search() {
         })
     } else {
       setResults([])
-      setPlayer({})
+      props.setPlayer({})
     }
   }, [])
 
   const onFocus = useCallback(() => {
-    console.log("onFocus")
     setActive(true)
     window.addEventListener('click', onClick)
   }, [])
 
   const onClick = useCallback((event) => {
-    console.log("onClick")
     if (searchRef.current && !searchRef.current.contains(event.target)) {
       setActive(false)
       window.removeEventListener('click', onClick)
@@ -47,8 +43,7 @@ export default function Search() {
   const onClickList = useCallback(player => (
     event
   ) => {
-    console.log("onClickList")
-    setPlayer(player)
+    props.setPlayer(player)
     setActive(false)  
   },
   []);
@@ -75,12 +70,6 @@ export default function Search() {
           ))}
         </ul>
       ) }
-    {player.name && player.covid === "si" && (
-        <div className={styles.cov}>{player.name} [{player.team}] ha fatto il Covid</div>
-      )}
-    { player.name && player.covid === "no" && (
-        <div className={styles.cov}>{player.name} [{player.team}] NON ha fatto il Covid</div>
-      )}
     </div>
   )
 }

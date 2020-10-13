@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import Search from '../components/search'
+import Result from '../components/result'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -18,9 +19,11 @@ export default function Home() {
         <p className={styles.description}>
           Il tool che mancava ai <strong>fanta-allenatori</strong> per un'asta <strong>senza sorprese</strong>!
         </p>
-
-        <Search />
+        <Result />
       </main>
+      <footer className={styles.footer}>
+        State a casa se avete sintomi! E mettete la mascherina!
+      </footer>
     </div>
   )
 }

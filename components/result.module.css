@@ -1,0 +1,10 @@
+.cov {
+  padding: 10px;
+  font-size: 2em;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
