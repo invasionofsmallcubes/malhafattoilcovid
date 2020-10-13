@@ -6,11 +6,11 @@ const players = [];
 
 async function postData() {
   return new Promise((resolve, reject) => {
-  const file = path.join(process.cwd(), 'data.csv')
+  const file = path.join(process.cwd(), 'fantacovid.csv')
   return fs.createReadStream(file)
   .pipe(csv())
   .on('data', (row) => {
-    players.push({name: row.giocatore, covid: row.covid, team: row.team});
+    players.push({name: row[0], covid: row[2], team: row[1]});
   })
   .on('end', () => resolve());
 })
@@ -23,7 +23,6 @@ try {
 }
 
 postData().then(posts => {
-  console.log(players);
   fs.writeFile('cache/data.js', `export const posts = ${JSON.stringify(players)}`, function (err) {
   if (err) return console.log(err);
   console.log('Posts cached.');
