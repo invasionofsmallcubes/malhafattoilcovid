@@ -15,6 +15,7 @@ export default function Search() {
 
   const onChange = useCallback((event) => {
     const query = event.target.value;
+    console.log("onChange")
     setQuery(query)
     if (query.length) {
       fetch(searchEndpoint(query))
@@ -24,15 +25,18 @@ export default function Search() {
         })
     } else {
       setResults([])
+      setPlayer({})
     }
   }, [])
 
   const onFocus = useCallback(() => {
+    console.log("onFocus")
     setActive(true)
     window.addEventListener('click', onClick)
   }, [])
 
   const onClick = useCallback((event) => {
+    console.log("onClick")
     if (searchRef.current && !searchRef.current.contains(event.target)) {
       setActive(false)
       window.removeEventListener('click', onClick)
@@ -43,13 +47,14 @@ export default function Search() {
   const onClickList = useCallback(player => (
     event
   ) => {
-    console.log(player)
+    console.log("onClickList")
     setPlayer(player)
-    setActive(false)  },
+    setActive(false)  
+  },
   []);
 
   return (
-    <div
+      <div
       className={styles.container}
       ref={searchRef}
     >
@@ -65,13 +70,16 @@ export default function Search() {
         <ul className={styles.results}>
           {results.map((player) => (
             <li onClick={onClickList(player)} className={styles.result} key={player.name}>
-                <a>{player.name}</a>
+                <a>{player.name} [{player.team}]</a>
             </li>
           ))}
         </ul>
       ) }
-      { player.name && (
-        <div>{player.name}</div>
+    {player.name && player.covid === "si" && (
+        <div className={styles.cov}>{player.name} [{player.team}] ha fatto il Covid</div>
+      )}
+    { player.name && player.covid === "no" && (
+        <div className={styles.cov}>{player.name} [{player.team}] NON ha fatto il Covid</div>
       )}
     </div>
   )

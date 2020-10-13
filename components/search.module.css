@@ -31,3 +31,8 @@
 .result a {
   color: #eee;
 }
+
+.cov {
+  padding: 10px;
+  font-size: 2em;
+}
