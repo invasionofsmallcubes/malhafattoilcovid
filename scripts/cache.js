@@ -10,7 +10,7 @@ async function postData() {
   return fs.createReadStream(file)
   .pipe(csv())
   .on('data', (row) => {
-    players.push({name: row.giocatore, covid: row.covid});
+    players.push({name: row.giocatore, covid: row.covid, team: row.team});
   })
   .on('end', () => resolve());
 })

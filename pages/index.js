@@ -21,14 +21,6 @@ export default function Home() {
 
         <Search />
       </main>
-
-      <footer className={styles.footer}>
-        Lista presa da <a
-          href="https://sport.sky.it/calcio/serie-a/2020/10/13/giocatori-serie-a-positivi-covid#08"
-          target="_blank"
-          rel="noopener noreferrer"
-        ><b>questo articolo</b></a>
-      </footer>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import styles from './search.module.css'
 export default function Search() {
 
   const searchRef = useRef(null)
+  const [player, setPlayer] = useState({})
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(false)
   const [results, setResults] = useState([])
@@ -38,6 +39,15 @@ export default function Search() {
     }
   }, [])
 
+
+  const onClickList = useCallback(player => (
+    event
+  ) => {
+    console.log(player)
+    setPlayer(player)
+    setActive(false)  },
+  []);
+
   return (
     <div
       className={styles.container}
@@ -53,15 +63,16 @@ export default function Search() {
       />
       { active && results.length > 0 && (
         <ul className={styles.results}>
-          {results.map(({ id, name }) => (
-            <li className={styles.result} key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{name}</a>
-              </Link>
+          {results.map((player) => (
+            <li onClick={onClickList(player)} className={styles.result} key={player.name}>
+                <a>{player.name}</a>
             </li>
           ))}
         </ul>
       ) }
+      { player.name && (
+        <div>{player.name}</div>
+      )}
     </div>
   )
 }

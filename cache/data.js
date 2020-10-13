@@ -1,1 +1,1 @@
-export const posts = [{"name":"gioc2","covid":"no"},{"name":"gioc3","covid":"si"}]
+export const posts = [{"name":"gioc2","covid":"no","team":"atalanta"},{"name":"gioc3","covid":"si","team":"juventus"}]
