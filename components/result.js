@@ -7,7 +7,7 @@ export default function Result() {
   const [player, setPlayer] = useState({})
 
   return (
-    <div className={styles.results}>
+    <div className={styles.resultss}>
       <Search setPlayer={setPlayer}/>
       {player.name && player.covid === "si" && (
         <div className={styles.cov}>{player.name} [{player.team}] ha fatto il Covid</div>

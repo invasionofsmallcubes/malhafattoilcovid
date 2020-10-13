@@ -5,7 +5,6 @@ import styles from './search.module.css'
 export default function Search(props) {
 
   const searchRef = useRef(null)
-  //const [player, setPlayer] = useState({})
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(false)
   const [results, setResults] = useState([])
@@ -20,7 +19,7 @@ export default function Search(props) {
         .then(res => res.json())
         .then(res => {
           setResults(res.results)
-        })
+        }).catch(e => alert(e))
     } else {
       setResults([])
       props.setPlayer({})
@@ -61,7 +60,7 @@ export default function Search(props) {
         type='text'
         value={query}
       />
-      { active && results.length > 0 && (
+      {  active && results.length > 0 && (
         <ul className={styles.results}>
           {results.map((player) => (
             <li onClick={onClickList(player)} className={styles.result} key={player.name}>
