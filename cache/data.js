@@ -1,0 +1,1 @@
+export const posts = [{"name":"gioc2","covid":"no"},{"name":"gioc3","covid":"si"}]
