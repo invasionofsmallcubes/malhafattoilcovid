@@ -1,5 +1,5 @@
 ﻿
-SPORTIELLO,Atalanta,no
+SPORTIELLO,Atalanta,si
 CONTI,Milan,no
 MASIELLO,Genoa,no
 CIGARINI,Crotone,no
@@ -8,11 +8,11 @@ GOMEZ,Atalanta,no
 GRASSI,Parma,no
 KURTIC,Parma,no
 DA COSTA,Bologna,no
-MIRANTE,Roma,no
+MIRANTE,Roma,si
 SARR M.,Bologna,no
 FERRARI A.,Sampdoria,no
 MBAYE,Bologna,no
-DIAWARA,Roma,no
+DIAWARA,Roma,si
 GAGLIOLO,Parma,no
 LETIZIA,Benevento,no
 SPOLLI,Crotone,no
@@ -21,7 +21,7 @@ LASAGNA,Udinese,no
 MATOS,Udinese,no
 MATTIELLO,Spezia,no
 HETEMAJ,Benevento,no
-RADOVANOVIC,Genoa,no
+RADOVANOVIC,Genoa,si
 INGLESE,Parma,no
 SKORUPSKI,Bologna,no
 BARBA,Benevento,no
@@ -32,7 +32,7 @@ MARIO RUI,Napoli,no
 TONELLI,Sampdoria,no
 KRUNIC,Milan,no
 SAPONARA,Fiorentina,no
-ZIELINSKI,Napoli,no
+ZIELINSKI,Napoli,si
 SEPE,Parma,no
 TATARUSANU,Milan,no
 BADELJ,Genoa,no
@@ -45,7 +45,7 @@ BERNARDESCHI,Juventus,no
 REBIC,Milan,no
 VERDE,Spezia,no
 DONNARUMMA AN.,Milan,no
-PERIN,Genoa,no
+PERIN,Genoa,si
 UJKANI,Torino,no
 DE MAIO,Udinese,no
 IZZO,Torino,no
@@ -69,19 +69,19 @@ MEDEL,Bologna,no
 PALACIO,Bologna,no
 BUFFON,Juventus,no
 BONUCCI,Juventus,no
-CACERES,Fiorentina,no
+CACERES,Fiorentina,si
 CHIELLINI,Juventus,no
-RUGANI,Juventus,no
+RUGANI,Juventus,si
 ASAMOAH,Inter,no
 KHEDIRA,Juventus,no
 PEREYRA,Udinese,no
 STURARO,Genoa,no
-CERRI,Cagliari,no
-DYBALA,Juventus,no
+CERRI,Cagliari,si
+DYBALA,Juventus,si
 LLORENTE,Napoli,no
 MORATA,Juventus,no
 ZAZA,Torino,no
-MARCHETTI,Genoa,no
+MARCHETTI,Genoa,si
 DE VRIJ,Inter,no
 HOEDT,Lazio,no
 PATRIC,Lazio,no
@@ -98,7 +98,7 @@ ZAPATA C.,Genoa,no
 BONAVENTURA,Fiorentina,no
 POLI,Bologna,no
 VERDI,Torino,no
-PETAGNA,Napoli,no
+PETAGNA,Napoli,si
 REINA,Lazio,no
 GHOULAM,Napoli,no
 KOULIBALY,Napoli,no
@@ -107,7 +107,7 @@ MAGGIO,Benevento,no
 ALLAN,Napoli,no
 DEZI,Parma,no
 CALLEJON,Fiorentina,no
-GABBIADINI,Sampdoria,no
+GABBIADINI,Sampdoria,si
 HIGUAIN,Juventus,no
 INSIGNE,Napoli,no
 MERTENS,Napoli,no
@@ -120,14 +120,14 @@ BRUGMAN,Parma,no
 JAJALO,Udinese,no
 VIOLA,Benevento,no
 BELOTTI,Torino,no
-LA GUMINA,Sampdoria,no
+LA GUMINA,Sampdoria,si
 SZCZESNY,Juventus,no
 CAPRADOSSI,Spezia,no
 MANOLAS,Napoli,no
 ROMAGNOLI,Milan,no
 FLORENZI,Roma,no
-NAINGGOLAN,Inter,no
-DESTRO,Genoa,no
+NAINGGOLAN,Inter,si
+DESTRO,Genoa,si
 GERVINHO,Parma,no
 IAGO FALQUE,Benevento,no
 DE SILVESTRI,Bologna,no
@@ -149,10 +149,10 @@ BERARDI,Sassuolo,no
 POLITANO,Napoli,no
 SANSONE,Bologna,no
 PADELLI,Inter,no
-BRUNO PERES,Roma,no
+BRUNO PERES,Roma,si
 GLIK,Benevento,no
 MAKSIMOVIC,Napoli,no
-ZAPPACOSTA,Genoa,no
+ZAPPACOSTA,Genoa,si
 BASELLI,Torino,no
 BENASSI,Verona,no
 QUAGLIARELLA,Sampdoria,no
@@ -162,17 +162,17 @@ DANILO LAR.,Bologna,no
 FARAONI,Verona,no
 BADU,Verona,no
 VERRE,Sampdoria,no
-ZAPATA D.,Atalanta,no
-GOLLINI,Atalanta,no
+ZAPATA D.,Atalanta,si
+GOLLINI,Atalanta,si
 RAFAEL,Spezia,no
 IONITA,Benevento,no
 SALA,Spezia,no
-ZACCAGNI,Verona,no
+ZACCAGNI,Verona,si
 FARES,Lazio,no
 SILIGARDI,Crotone,no
 CHIRICHES,Sassuolo,no
 DEFREL,Sassuolo,no
-PULGAR,Fiorentina,no
+PULGAR,Fiorentina,si
 MILINKOVIC-SAVIC,Lazio,no
 DZEKO,Roma,no
 KALINIC,Verona,no
@@ -194,19 +194,19 @@ IMMOBILE,Lazio,no
 DJIMSITI,Atalanta,no
 FREULER,Atalanta,no
 SAMIR,Udinese,no
-SKRINIAR,Inter,no
-GAGLIARDINI,Inter,no
+SKRINIAR,Inter,si
+GAGLIARDINI,Inter,si
 FAVILLI,Verona,no
 ADJAPONG,Sassuolo,no
 LOCATELLI,Sassuolo,no
 EDERA,Torino,no
-RADU I.,Inter,no
+RADU I.,Inter,si
 CALDARA,Atalanta,no
 KESSIE',Milan,no
 MOLINA S.,Crotone,no
 SPINAZZOLA,Roma,no
 BRUNO ALVES,Parma,no
-CEPPITELLI,Cagliari,no
+CEPPITELLI,Cagliari,si
 MURRU,Torino,no
 PISACANE,Cagliari,no
 BARELLA,Inter,no
@@ -238,7 +238,7 @@ JANKTO,Sampdoria,no
 DJURICIC,Sassuolo,no
 DE PAUL,Udinese,no
 SIMY,Crotone,no
-PJACA,Genoa,no
+PJACA,Genoa,si
 LUKAKU J.,Lazio,no
 CHIESA,Juventus,no
 LIROLA,Fiorentina,no
@@ -255,22 +255,22 @@ BASTOS,Lazio,no
 CRISTOFORO,Fiorentina,no
 ROG,Cagliari,no
 PASALIC,Atalanta,no
-BIRASCHI,Genoa,no
+BIRASCHI,Genoa,si
 LUIS ALBERTO,Lazio,no
-BERESZYNSKI,Sampdoria,no
+BERESZYNSKI,Sampdoria,si
 KIYINE,Lazio,no
 FARAGO',Cagliari,no
 DEULOFEU,Udinese,no
 BASTONI,Inter,no
-MELEGONI,Genoa,no
-ZAJC,Genoa,no
+MELEGONI,Genoa,si
+ZAJC,Genoa,si
 HATEBOER,Atalanta,no
 SCAMACCA,Genoa,no
-DEPAOLI,Atalanta,no
+DEPAOLI,Atalanta,si
 CUOMO,Crotone,no
 COULIBALY,Udinese,no
 VIGNATO,Bologna,no
-CUTRONE,Fiorentina,no
+CUTRONE,Fiorentina,si
 GOSENS,Atalanta,no
 CORNELIUS,Parma,no
 MILENKOVIC,Fiorentina,no
@@ -280,7 +280,7 @@ MUSACCHIO,Milan,no
 RODRIGUEZ R.,Torino,no
 MILINKOVIC-SAVIC V.,Torino,no
 LYANCO,Torino,no
-BARAK,Verona,no
+BARAK,Verona,si
 VENUTI,Fiorentina,no
 CRAGNO,Cagliari,no
 SIRIGU,Torino,no
@@ -298,11 +298,11 @@ BERENGUER,Torino,no
 JAROSZYNSKI,Genoa,no
 LUCAS LEIVA,Lazio,no
 SILVESTRI,Verona,no
-CASSATA,Genoa,no
+CASSATA,Genoa,si
 KOLAROV,Inter,no
 VERETOUT,Roma,no
 DEL PINTO,Benevento,no
-MARCHIZZA,Spezia,no
+MARCHIZZA,Spezia,si
 LAZZARI,Lazio,no
 MORA,Spezia,no
 SCHIATTARELLA,Benevento,no
@@ -317,9 +317,9 @@ N'KOULOU,Torino,no
 DALBERT,Inter,no
 MANCINI,Roma,no
 ROSSI F.,Atalanta,no
-BEHRAMI,Genoa,no
+BEHRAMI,Genoa,si
 SALCEDO E.,Verona,no
-PEZZELLA GER.,Fiorentina,no
+PEZZELLA GER.,Fiorentina,si
 STRYGER LARSEN,Udinese,no
 ZANELLATO,Crotone,no
 ROGERIO,Sassuolo,no
@@ -331,7 +331,7 @@ MARLON,Sassuolo,no
 CYPRIEN,Parma,no
 PASTORE,Roma,no
 RABIOT,Juventus,no
-EKDAL,Sampdoria,no
+EKDAL,Sampdoria,si
 WALACE,Udinese,no
 RIBERY,Fiorentina,no
 VIDAL,Inter,no
@@ -341,11 +341,11 @@ SANCHEZ,Inter,no
 PEDRO,Roma,no
 DARMIAN,Inter,no
 MKHITARYAN,Roma,no
-IBRAHIMOVIC,Milan,no
+IBRAHIMOVIC,Milan,si
 LUKAKU,Inter,no
 ERIKSEN,Inter,no
 GODIN,Cagliari,no
-RONALDO,Juventus,no
+RONALDO,Juventus,si
 SORIANO,Bologna,no
 KJAER,Milan,no
 BAKAYOKO,Napoli,no
@@ -354,13 +354,13 @@ DABO,Benevento,no
 EL YAMIQ,Genoa,no
 CASTILLEJO,Milan,no
 ADRIEN SILVA,Sampdoria,no
-YOUNG,Inter,no
+YOUNG,Inter,si
 BARROW,Bologna,no
 RAVAGLIA F.,Bologna,no
 BUONGIORNO,Torino,no
 CALIGARA,Cagliari,no
 DANZI,Verona,no
-PELLEGRINI LU.,Genoa,no
+PELLEGRINI LU.,Genoa,si
 RECA,Crotone,no
 PESSINA,Atalanta,no
 SANTANDER,Bologna,no
@@ -368,8 +368,8 @@ SVANBERG,Bologna,no
 CALABRESI,Bologna,no
 DIJKS,Bologna,no
 PAZ,Bologna,no
-GUNTER,Verona,no
-CRISCITO,Genoa,no
+GUNTER,Verona,si
+CRISCITO,Genoa,si
 KOUAME',Fiorentina,no
 MARTINEZ L.,Inter,no
 ZANIOLO,Roma,no
@@ -379,7 +379,7 @@ SPROCATI,Parma,no
 RUIZ,Napoli,no
 YOUNES,Napoli,no
 KLUIVERT,Roma,no
-COLLEY,Sampdoria,no
+COLLEY,Sampdoria,si
 BREMER,Torino,no
 MEITE',Torino,no
 ROSATI,Torino,no
@@ -395,16 +395,16 @@ BENNACER,Milan,no
 CAPUTO,Sassuolo,no
 BOURABIA,Sassuolo,no
 PUSSETTO,Udinese,no
-BOGA,Sassuolo,no
+BOGA,Sassuolo,si
 KULUSEVSKI,Juventus,no
 KINGSLEY,Bologna,no
-SOTTIL,Cagliari,no
-VLAHOVIC,Fiorentina,no
+SOTTIL,Cagliari,si
+VLAHOVIC,Fiorentina,si
 CONTINI,Napoli,no
 FRATTESI,Sassuolo,no
 RICCARDI,Roma,no
 MONCINI,Benevento,no
-BRADARIC,Cagliari,no
+BRADARIC,Cagliari,si
 VIEIRA,Verona,no
 TRAORE' HJ.,Sassuolo,no
 MALCUIT,Napoli,no
@@ -426,11 +426,11 @@ PAQUETA',Milan,no
 ZEEGELAAR,Udinese,no
 OKAKA,Udinese,no
 OLIVA,Cagliari,no
-LERAGER,Genoa,no
+LERAGER,Genoa,si
 IBANEZ,Roma,no
 DEMIRAL,Juventus,no
-DESPODOV,Cagliari,no
-SCHIAPPACASSE,Sassuolo,no
+DESPODOV,Cagliari,si
+SCHIAPPACASSE,Sassuolo,si
 MILLICO,Torino,no
 NICOLUSSI CAVIGLIA,Parma,no
 BRANCOLINI,Fiorentina,no
@@ -449,9 +449,9 @@ ADEKANYE,Lazio,no
 ANDERSON D.,Lazio,no
 SCHOUTEN,Bologna,no
 VAVRO,Lazio,no
-GABBIA,Milan,no
+GABBIA,Milan,si
 CHABOT,Spezia,no
-THORSBY,Sampdoria,no
+THORSBY,Sampdoria,si
 TRIPALDELLI,Cagliari,no
 IGOR,Fiorentina,no
 RRAHMANI,Napoli,no
@@ -468,14 +468,14 @@ JONY,Lazio,no
 TOLJAN,Sassuolo,no
 MALINOVSKYI,Atalanta,no
 DE LIGT,Juventus,no
-CARNESECCHI,Atalanta,no
+CARNESECCHI,Atalanta,si
 COLLEY E.,Verona,no
-TONALI,Milan,no
+TONALI,Milan,si
 PINNA,Cagliari,no
 ROVELLA,Genoa,no
 ZAPPA,Cagliari,no
 ESPOSITO,Inter,no
-ELMAS,Napoli,no
+ELMAS,Napoli,si
 FERIGRA,Torino,no
 RAUTI,Torino,no
 BERARDI A.,Verona,no
@@ -486,8 +486,8 @@ HENDERSON L.,Verona,no
 DI CARMINE,Verona,no
 OBIANG,Sassuolo,no
 RAFAEL LEAO,Milan,no
-DUARTE,Milan,no
-SCHONE,Genoa,no
+DUARTE,Milan,si
+SCHONE,Genoa,si
 NANDEZ,Cagliari,no
 AGUDELO,Spezia,no
 LOZANO,Napoli,no
@@ -507,7 +507,7 @@ TURATI,Sassuolo,no
 DOMINGUEZ,Bologna,no
 CZYBORRA,Genoa,no
 BREZA,Bologna,no
-CARLES PEREZ,Roma,no
+CARLES PEREZ,Roma,si
 VILLAR,Roma,no
 PEREIRO,Cagliari,no
 BELLANOVA,Atalanta,no
@@ -516,7 +516,7 @@ TAMEZE,Verona,no
 SAELEMAEKERS,Milan,no
 HARASLIN,Sassuolo,no
 YOSHIDA,Sampdoria,no
-MALDINI,Milan,no
+MALDINI,Milan,si
 PIROLA,Inter,no
 SINGO,Torino,no
 PRODL,Udinese,no
@@ -587,7 +587,7 @@ EDUARDO HENRIQUE,Crotone,no
 RIVIERE,Crotone,no
 ISMAJLI,Spezia,no
 DRAGUS,Crotone,no
-MURIQI,Lazio,no
+MURIQI,Lazio,si
 ASORO,Genoa,no
 MAYORAL,Roma,no
 AKPA AKPRO,Lazio,no
@@ -599,7 +599,7 @@ MOJICA,Atalanta,no
 LUVUMBO,Cagliari,no
 POBEGA,Spezia,no
 HICKEY,Bologna,no
-MALES,Genoa,no
+MALES,Genoa,si
 BOER,Roma,no
 ALIA,Lazio,no
 VALENTI,Parma,no
@@ -619,7 +619,7 @@ OSORIO,Parma,no
 GOJAK,Torino,no
 MAKENGO,Udinese,no
 BASIT,Benevento,no
-BASTONI S.,Spezia,no
+BASTONI S.,Spezia,si
 GASPARINI,Udinese,no
 NZOLA,Spezia,no
 RINALDI,Parma,no
