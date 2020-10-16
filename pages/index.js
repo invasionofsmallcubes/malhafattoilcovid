@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Il tool che mancava ai <strong>fanta-allenatori</strong> per un'asta <strong>senza sorprese</strong>!
+          Il tool che mancava ai <strong>fanta-allenatori</strong> per un'asta <strong>senza sorprese</strong> <img width="20" height="20" src="https://bit.ly/2H74fJD"/>!
         </p>
         <Result />
       </main>
